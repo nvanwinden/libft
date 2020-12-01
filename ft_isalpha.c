@@ -6,14 +6,13 @@
 /*   By: nvan-win <nvan-win@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/04/18 12:36:57 by nvan-win      #+#    #+#                 */
-/*   Updated: 2020/05/08 13:27:44 by nvan-win      ########   odam.nl         */
+/*   Updated: 2020/12/01 15:45:11 by nvan-win      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isalpha(int c)
 {
-	if ((c >= 0101 && c <= 0132) || (c >= 0141 && c <= 0172))
+	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 		return (1);
-	else
-		return (0);
+	return (0);
 }
