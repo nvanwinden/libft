@@ -1,2 +1,2 @@
 # libft
-My personal C library
+My personal C library.
