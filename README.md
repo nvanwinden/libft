@@ -1,2 +1,2 @@
 # libft
-My personal C library. To compile, run <code>make</code>.
+My personal C library. Run <code>make</code> to compile.
