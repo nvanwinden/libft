@@ -6,7 +6,7 @@
 #    By: nvan-win <nvan-win@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2020/04/18 22:46:35 by nvan-win      #+#    #+#                  #
-#    Updated: 2020/12/01 16:47:57 by nvan-win      ########   odam.nl          #
+#    Updated: 2021/02/15 15:35:16 by nvan-win      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,7 +47,7 @@ REG_OBJ_FILES =		ft_memset.o \
 					ft_putstr_fd.o \
 					ft_putendl_fd.o \
 					ft_putnbr_fd.o \
-					get_next_line.o					
+					get_next_line.o
 BONUS_OBJ_FILES =	ft_lstnew.o \
 					ft_lstadd_front.o \
 					ft_lstsize.o \
