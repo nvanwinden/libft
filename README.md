@@ -7,7 +7,7 @@ My personal C library. Run <code>make</code> to compile.
 
 ### Functions
 
-| libc functions | 42 functions | Bonus functions  |
+| libc functions | 42 functions | Linked list  |
 | ------------- |-------------| -----|
 | memset | ft_substr | ft_lstnew |
 | bzero | ft_strjoin | ft_lstadd_front |
