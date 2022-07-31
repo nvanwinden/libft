@@ -1,7 +1,17 @@
-# libft
-My personal C library. Run <code>make</code> to compile.
+<h1 align="center">libft</h1>
+
+<p align="center"> My personal C library.</p>
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c.svg)](https://forthebadge.com)
+
+The aim of this project is to code a C library regrouping usual functions that you’ll be allowed to use in all your other projects.
+
+Run `make` to compile
+
+Run `make bonus` to compile with linked list functions
 
 ### Skills
+* Rigor
 * Imperative programming
 * Algorithms & AI
 
