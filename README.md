@@ -1,21 +1,56 @@
-<h1 align="center">libft</h1>
+# libft
+**Codam [42 Network] project**: libft is the first project of the Codam curriculum. The aim of this project is to write your own C library and (re)code a selection of functions that can be used for C projects throughout the curriculum. This project consists of three parts:
 
-<p align="center"> My personal C library.</p>
+1) Recode a selection of libc functions as defined in their man page
+2) Code a set of functions that are either not included in the libc, or included in a different form
+3) Bonus part: a set of functions that allow you to easily use linked lists
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-c.svg)](https://forthebadge.com)
+The bonus part is included in this project.
 
-The aim of this project is to code a C library regrouping usual functions that you’ll be allowed to use in all your other projects.
+**Project requirements**
 
-Run `make` to compile
+- The libc funtions need to present the same prototype and behaviors as the originals
+- Function names must be prefixed by ft_
+- Read the full subject
 
-Run `make bonus` to compile with linked list functions
-
-### Skills
+**Skills**
 * Rigor
 * Imperative programming
 * Algorithms & AI
 
-### Functions
+## Instructions :clipboard:
+
+### Clone repo
+
+`git clone https://github.com/nvanwinden/libft.git`
+
+### Make
+
+Run `make` to create the `libft.a` library.<br>
+Run `make bonus` to compile including the bonus functions.
+
+# Include libft in your project
+
+```
+#include "libft.h"
+#include "stdio.h"
+
+int main () {
+
+	char *str = ft_substr("This is how to use libft!", 19, 5);
+	printf("%s\n", str);
+	free(str);
+	return (0);
+}
+```
+
+### Compile
+`gcc main.c -L. -lft -o example` 
+
+### Run
+`./example`
+
+### Function overview
 
 | libc functions | 42 functions | Linked list  |
 | ------------- |-------------| -----|
