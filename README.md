@@ -11,7 +11,7 @@ The bonus part is included in this project.
 
 - The libc funtions need to present the same prototype and behaviors as the originals
 - Function names must be prefixed by ft_
-- Read the full subject
+- [Read the full subject](https://github.com/nvanwinden/libft/blob/main/en.subject.pdf)
 
 **Skills**
 * Rigor
