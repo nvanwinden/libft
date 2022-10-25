@@ -28,7 +28,7 @@ The bonus part is included in this project.
 
 Run `make` to create the `libft.a` library or run `make bonus` to create the libft library including the bonus functions.
 
-# Include libft in your project
+### Include libft in your project
 
 ```
 #include "libft.h"
